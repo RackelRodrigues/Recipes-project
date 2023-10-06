@@ -1,0 +1,140 @@
+
+*{
+  margin:0;
+  border: 0;
+}
+
+body{
+  background-color: var(--gray-background);
+}
+
+:root {
+    --text_houver: #ffffff;
+    --orange_color: #f97316;
+    --grey_color:#4b5563;
+    --grey-border: #000001;
+    --gray-background:#E5E7EB;
+    --size-font: 700;
+    --margin-button: 1rem;
+    --font-size: 2.25rem;
+    --line-height: 2.25rem;
+}
+
+  
+.conteinertitle3{
+  display: flex;
+  justify-content: center;
+  height: 75vh;
+  padding-top: 80px;
+}
+
+.title1{
+  color: var(--orange_color);
+  font-weight: var(--size-font);
+  margin-bottom: 20px !important;
+  position: absolute;
+  left: 20px;
+  display: flex;
+  padding-left: 7rem;
+  font-weight: var(--size-font);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+
+}
+  
+input{
+  color: var(--grey_color);
+  background-color: var(--text_houver);
+  border: 0;
+  outline: none;
+  font-size: 1em;
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: left;
+  margin-right: 30px;
+  width: 100%;
+
+}
+
+  
+  
+.conteinerinput input{
+  background-color: var(--text_houver);
+
+}
+  
+.conteinerinput{
+  background-color: var(--text_houver);
+  display: flex;
+  flex-direction: row;
+  border-radius: 0.25rem;
+  width: 80%;
+  height: 47px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translate(-52%, -50%);
+  
+}
+
+ 
+.conteinerinput:hover{
+  border: var(--orange_color);
+
+}
+  
+.buttonSearch{
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  border: none;
+  margin: auto;
+  justify-content: center;
+  
+   
+}
+
+.buttonSearch:hover{
+  border: none;
+}
+  
+.buttonSearch:active{
+  outline: none; 
+ }
+  
+.buttonSearch:focus {
+  outline: none; 
+}
+  
+.box_ing{
+  background-color: var(--text_houver);
+  outline: none;
+  width: 43rem;
+  height: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 0.25rem;
+  margin-left: 3rem; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}  
+  
+.box_ing h3{
+  color:#000001;
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+
+}
+  
+  
+  
+  
+  
+  
+  
+  

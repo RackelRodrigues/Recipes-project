@@ -1,0 +1,118 @@
+*{
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body{
+    background-color: var(--text_houver);
+    display: block;
+  }
+  
+  :root {
+    --text_houver: #ffffff;
+    --orange_color: #f97316;
+    --grey_color:#4b5563;
+    --grey-border: #000001;
+    --border-orange: #ea580c;
+    --gray-background:#E5E7EB;
+    --size-font: 700;
+    --margin-button: 1rem;
+  }
+  
+  .boxing{
+    padding: 30px;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    
+    
+  }
+  
+    .container {
+      padding: 20px;
+      margin-top: 60px; /* Espaço entre o header e o conteúdo */
+    }
+  
+  
+  .random_title{
+    color: var(--border-orange);
+    position: absolute;
+    left: 20px;
+    display: flex;
+    padding-left: 7rem;
+    margin-top: 3rem;
+    font-weight: var(--size-font);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    font-weight: var(--size-font);
+    margin-top: 2rem;
+    
+  }
+  
+  .subtitle{
+    color: #000001;
+    font-weight: var(--size-font);
+  }
+  
+  .description{
+    color: #000001;
+    font-weight: 400;
+    padding-top: 1em;
+  }
+  
+  
+  
+  .conteiner_recipe:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .C-3{
+    background-color: var(--text_houver);
+    width:350px; 
+    height: 150px;
+    border-radius: 0 0 0.29rem 0.29rem;
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .C-3:hover{
+    transform: scale(1.05);
+  }
+  
+  
+  .button_you{
+    background-color: transparent;
+    height: 4em;
+    padding: 8px;
+    display: flex;
+    border: 2px var(--border-orange);
+   
+  }
+  
+  .button{
+    display: flex;
+    border-radius: 0.25rem;
+    background-color: var(--orange_color);
+    color:#ffffff;
+    height: 100%;
+    outline: none;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button:hover{
+    cursor: pointer;
+    color:#ffffff;
+    background-color: var(--border-orange);
+  }
+  
+  
+  
+  
+  
+  
+  
